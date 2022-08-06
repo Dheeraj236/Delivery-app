@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+.env
 
 # testing
 /coverage
@@ -21,6 +22,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-
-pk_test_51LTgBZSB7zH8y98BBhdqSiLdC06Vh0Bvc2zPrdhyPgQyCFSQ3OM2BhNdrF50vUW17xYxrrvADhUuLO0spyG43FTk00YrV2aGvL

@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { logoutUser } from "../actions/userActions";
+
 export default function Navbar() {
   const cartstate = useSelector((state) => state.cartReducer);
   const userstate = useSelector((state) => state.loginUserReducer);
@@ -11,7 +12,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded">
         <a className="navbar-brand" href="/">
-          Hot and Fresh Pizzas
+          Pizzas
         </a>
         <button
           className="navbar-toggler"
@@ -30,7 +31,7 @@ export default function Navbar() {
           <ul className="navbar-nav ml-auto">
             {currentUser ? (
               <div className="dropdown mt-2">
-                <a
+                <a 
                   style={{ color: "black" }}
                   className="dropdown-toggle"
                   type="button"
